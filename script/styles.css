@@ -1,0 +1,65 @@
+.f48 {
+    color: red;
+    font-size: 30px;
+    text-shadow: 2px 5px 5px blue;
+}
+
+body {
+    background-color: #CC0099;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green
+}
+
+.bgimg {
+    background-image: url("../images/pic1.jpg");
+    background-repeat: repeat-x;
+    opacity: 0.7;
+}
+
+.bggreen {
+    background-color: green;
+}
+
+a {
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(20, 99, 41);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: violet;
+    font-size: 25px;
+}
+
+img {
+    height: "200px";
+}
